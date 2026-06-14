@@ -21,13 +21,10 @@ This application allows users to quickly calculate their BMI by entering their h
 
 <!-- Add your screenshots here -->
 
-### Home Screen
-
-![Home Screen](screenshots/home.png)
-
-### Result Screen
-
-![Result Screen](screenshots/result.png)
+<p align="center">
+  <img src="screenshots/home.png" width="250"/>
+  <img src="screenshots/result.png" width="250"/>
+</p>
 
 ---
 
