@@ -1,84 +1,58 @@
-# BMI Calculator App
+# BMI Calculator
 
-A simple and user-friendly **BMI (Body Mass Index) Calculator** built with **Flutter** and **Dart**.
+A high-performance, lightweight Android health utility application engineered using the Flutter framework. Designed with a modern, user-centric interface, this application provides users with immediate and precise Body Mass Index (BMI) calculations alongside diagnostic health categorization feedback based on user-input physical dimensions.
 
-This application allows users to quickly calculate their BMI by entering their height and weight. It provides an easy way to determine whether a person's weight falls within a healthy range based on standard BMI classifications.
-
----
-
-## Features
-
-* Clean and intuitive user interface
-* Calculate BMI using height and weight inputs
-* Instant BMI result generation
-* BMI category interpretation (Underweight, Normal Weight, Overweight, etc.)
-* Fast and responsive Flutter application
-* Cross-platform support through Flutter
+The system features a minimal package footprint, relying entirely on optimized native compilation targets to achieve exceptional performance and fluid interactions.
 
 ---
 
-## Screenshots
-
-<!-- Add your screenshots here -->
-
-<p align="center">
-  <img src="Screenshots/Screenshot_20260614_233010.jpg" width="250"/>
-  <img src="Screenshots/Screenshot_20260614_233017.jpg" width="250"/>
-
-  
-</p>
-
----
-
-## How BMI is Calculated
-
-BMI is calculated using the formula:
-
-```text
-BMI = Weight (kg) / Height² (m²)
-```
-
-Based on the calculated BMI value, the app provides a corresponding health category to help users better understand their fitness status.
+### Application Preview
+<!-- Professional side-by-side grid structure with bounded image scaling -->
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Calculator Interface</strong><br/><br/>
+      <img src="path/to/input-screenshot.png" alt="BMI Input Panel" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <strong>Analysis & Metrics Feedback</strong><br/><br/>
+      <img src="path/to/results-screenshot.png" alt="Diagnostic Categorization View" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Built With
+## Key Features
+- **Precise Mathematical Inferences:** Processes biological physical properties (height and weight metrics) instantly to compute fractional body mass index metrics.
+- **Dynamic Diagnostic Categorization:** Evaluates raw health numbers against international weight indices to return accurate descriptive tiers (e.g., Underweight, Normal, Overweight).
+- **Polished Custom Typography:** Fully inherits global application theme rules mapped to the geometric `Poppins` font family for high contrast screen legibility.
+- **Scalable Vector Optimization:** Incorporates integrated structural asset mapping allowing clean, lossless rendering of vector layouts across arbitrary Android display densities.
+- **Responsive State Adaptability:** Relies on reactive layout constraints to preserve element alignment perfectly across modern, varying screen form-factors.
 
-* Flutter
-* Dart
+## Tech Stack & Architecture
 
----
+The application focuses on an optimized, zero-overhead client architecture prioritizing rapid rendering loops and fluid interface reactivity.
 
-## Getting Started
+### Core Architecture
+- **Language:** Dart
+- **Framework:** Flutter (SDK: ^3.7.0)
+- **Target Platform:** Android (Min SDK: 21)
+- **State Architecture:** Clean modular UI layout workflows decoupling computational physics calculations from view context drawing functions.
 
+### Resource Integrations
+- **Vector Rendering Engine (`flutter_svg`):** Parses and displays scalable graphic icons seamlessly without compounding baseline application binary size.
+- **Platform Style Components (`cupertino_icons`):** Provides a granular selection of asset iconography assets supporting standard cross-platform UI workflows.
+- **Resource Configurations:** Mounts localized asset pipeline directories linking system image folders and font mapping trees safely during early native execution phases.
+
+## Installation & Environment Setup
+
+### Prerequisites
+- Flutter SDK configured locally.
+- Android Studio / Android Build Tools.
+
+### Step-by-Step Setup
 1. Clone the repository:
-
-```bash
-git clone https://github.com/topmasum/BMI-Calculator-app.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd BMI-Calculator-app
-```
-
-3. Install dependencies:
-
-```bash
-flutter pub get
-```
-
-4. Run the application:
-
-```bash
-flutter run
-```
-
----
-
-## Author
-
-**Masum Billah**
-
-If you find this project useful, consider giving it a ⭐ on GitHub.
+   ```bash
+   git clone [https://github.com/topmasum/BMI-Calculator-app.git](https://github.com/topmasum/BMI-Calculator-app.git)
+   cd BMI-Calculator-app
